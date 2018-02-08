@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar bank;
+!slot <mainservice>;
+!slot <otherservice>;
+!start <bankservice>;
+<bankservice>:[<mainservice>][<otherservice>];
+<mainservice>:挂号服务|违章查询|缴费|业务查询|身份认证|理财产品;
+<otherservice>:我要|我想|我想要;

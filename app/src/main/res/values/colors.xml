@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_common_top">#84B6ED</color>
+    <color name="color_white">#fff</color>
+    <color name="color_top_title">#222</color>
+    <color name="color_question_back">#6FAEF2</color>
+    <color name="color_question_item">#333333</color>
+    <color name="color_navigation">#D2EDF7</color>
+    <color name="color_navigation_top">#4D87DE</color>
+    <color name="color_nav_select_one">#9c9c9c</color>
+    <color name="color_nav_select_one_back">#4d87de</color>
+    <color name="color_air_qurery_back">#DBE2EC</color>
+    <color name="color_air_status">#0FA85B</color>
+    <color name="color_red">#f00</color>
+</resources>

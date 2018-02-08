@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_main_background"
+    android:padding="10px"
+    tools:context="com.example.airport.main.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_query"
+            android:layout_width="618px"
+            android:layout_height="920px"
+            android:background="@mipmap/ic_main_query" />
+
+        <ImageView
+            android:id="@+id/iv_question"
+            android:layout_width="433px"
+            android:layout_height="920px"
+            android:layout_marginLeft="8px"
+            android:layout_toRightOf="@id/iv_query"
+            android:background="@mipmap/ic_main_question" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_main_top"
+        android:layout_marginTop="10px">
+
+        <RelativeLayout
+            android:id="@+id/rl_main_bottom_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_navigation"
+                android:layout_width="433px"
+                android:layout_height="606px"
+                android:background="@mipmap/ic_main_navigation" />
+
+            <ImageView
+                android:id="@+id/iv_wechat"
+                android:layout_width="433px"
+                android:layout_height="354px"
+                android:layout_below="@id/iv_navigation"
+                android:layout_marginTop="10px"
+                android:background="@mipmap/ic_main_wechat" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_handle"
+            android:layout_width="618px"
+            android:layout_height="970px"
+            android:layout_marginLeft="8px"
+            android:layout_toRightOf="@id/rl_main_bottom_left"
+            android:background="@mipmap/ic_main_handle" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

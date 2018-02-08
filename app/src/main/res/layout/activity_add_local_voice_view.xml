@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backdrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_question_back">
+
+    <include
+        android:id="@+id/layout_top"
+        layout="@layout/layout_common_top" />
+
+    <LinearLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top"
+        android:layout_margin="53px"
+        android:divider="@color/color_top_title"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/et_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="输入问题:"
+                android:inputType="textPhonetic"
+                android:textColor="@color/color_white"
+                android:textColorHint="@color/color_top_title"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="输入答案:"
+                android:inputType="textPhonetic"
+                android:textColor="@color/color_white"
+                android:textColorHint="@color/color_top_title"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="8px"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/set_expression"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_expression"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="50px"-->
+        <!--android:layout_weight="1"-->
+        <!--android:hint="点击选择表情"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:textColorHint="@color/color_top_title"-->
+        <!--android:textSize="20sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/y30"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/set_action"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_action"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="50px"-->
+        <!--android:layout_weight="1"-->
+        <!--android:hint="点击选择动作"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:textColorHint="@color/color_top_title"-->
+        <!--android:textSize="20sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10px"-->
+        <!--android:gravity="center_horizontal">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_img"-->
+        <!--android:layout_width="200px"-->
+        <!--android:layout_height="120px"-->
+        <!--android:background="@mipmap/choose_long_btn"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/set_img"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:textSize="25sp" />-->
+
+        <!--</RelativeLayout>-->
+    </LinearLayout>
+</RelativeLayout>

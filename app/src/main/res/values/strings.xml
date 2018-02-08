@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Airport</string>
+    <string name="string_question">问题咨询</string>
+    <string name="string_airquery">航班查询</string>
+    <string name="string_handle">办理登机</string>
+    <string name="string_navigation">导航</string>
+    <string name="string_wechat">公众号</string>
+    <string name="string_question_people">是否没有解答您的疑惑？联系人工客服帮忙！</string>
+    <string name="string_handle_idcard_one">请持有效身份证件，把身份证放在下面感应区初，</string>
+    <string name="string_handle_idcard_two">我们会对您进行身份识别认证</string>
+    <string name="string_nav_select_num">按航班号</string>
+    <string name="string_nav_select_add">按起降地</string>
+    <string name="string_nav_select_add_hint">请输入航班号</string>
+    <string name="string_out_time">出发时间</string>
+    <string name="string_select">查询</string>
+    <string name="previous">Go to previous</string>
+    <string name="next">Go to next</string>
+    <string name="calendar">Calendar</string>
+    <string name="string_select_time">选择时间</string>
+    <string name="string_air_start">出发地</string>
+    <string name="string_air_end">目的地</string>
+    <string name="Seting_up">设置</string>
+    <string name="Forward">前进</string>
+    <string name="Backoff">后退</string>
+    <string name="Turnleft">左转</string>
+    <string name="Turnright">右转</string>
+    <string name="Back">返回</string>
+    <string name="Artificial">人工客服</string>
+    <string name="Face_lifting_area">人脸提取</string>
+    <string name="StopListener">关闭监听</string>
+    <string name="string_addlocal">添加本地语音</string>
+</resources>
